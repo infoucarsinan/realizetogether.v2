@@ -1,0 +1,60 @@
+.mainContainer {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  row-gap: 1em;
+}
+
+.registrationForm__header {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 1.5em 0 1em 0;
+  row-gap: 1em;
+  align-self: flex-end;
+  text-align: center;
+}
+
+.registrationForm__main {
+  display: grid;
+  row-gap: 1em;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 30em;
+}
+
+.registerForm__error {
+  color: var(--alert-color);
+  text-align: center;
+}
+
+.loginForm__main__titel {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.5em;
+  font-family: var(--font-family-title);
+}
+
+.backButton {
+  position: absolute;
+  top: 4em;
+  left: 2em;
+}
+
+.loginForm__main__imagetitel {
+  font-size: 0.6em;
+}
+
+.main {
+  align-self: flex-start;
+}
+
+.imageUpload {
+  display: grid;
+  row-gap: 0.5em;
+  cursor: pointer;
+}
+
+.imageUpload input {
+  display: none;
+}

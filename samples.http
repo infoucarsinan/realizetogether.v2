@@ -1,0 +1,51 @@
+@port = {{$dotenv PORT}}
+@baseUrl = http://localhost:{{port}}
+
+### Not found
+GET {{baseUrl}}/api/users/tester
+
+### Register user (will only work once, because the `email` has to be unique)
+POST {{baseUrl}}/api/users
+Content-Type: application/json
+
+{
+  "email": "cani@coco.com",
+  "firstName": "Ad",
+  "lastName": "Soyad",
+  "password": "gizliSifre"
+}
+
+### Delete a user
+DELETE {{baseUrl}}/api/users/cani@coco.com
+
+### Login user (make sure this user exists and check the response headers "Set-Cookie")
+POST {{baseUrl}}/api/users/login
+Content-Type: application/json
+
+{
+  "email": "cani@coco.com",
+  "password": "gizliSifre"
+}
+
+### Logged in user (make sure to login first)
+GET {{baseUrl}}/api/users/loggeduser
+
+### Logged in user (make sure to login first)
+GET {{baseUrl}}/api/users/Asime
+
+### Login user (make sure this user exists and check the response headers "Set-Cookie")
+POST {{baseUrl}}/api/users/login
+Content-Type: application/json
+
+{
+  "email": "bob@bobson.com",
+  "password": "myPlaintextPassword"
+}
+
+### Update user
+PATCH {{baseUrl}}/api/users/cani@coco.com
+Content-Type: application/json
+
+{
+  "userDescription": "test"
+}

@@ -1,0 +1,61 @@
+.loginForm {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 2fr 2fr;
+  row-gap: 1em;
+}
+
+.loginForm__header {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 2em 0 2em;
+  row-gap: 2em;
+  align-self: flex-end;
+}
+
+.loginForm__main {
+  display: grid;
+  row-gap: 1em;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 30em;
+}
+
+.loginForm__error {
+  color: var(--alert-color);
+  text-align: center;
+}
+
+.loginForm__ForgotPasswordTitel {
+  text-transform: uppercase;
+  padding: 2em 0;
+  font-weight: 500;
+}
+
+.loginForm_RegisterLink {
+  text-transform: uppercase;
+  padding: 0.5em 0;
+}
+
+.loginForm__footer {
+  display: grid;
+  justify-items: center;
+  font-size: 0.8em;
+}
+.loginForm__main__titel {
+  text-transform: uppercase;
+  font-size: 0.8em;
+  letter-spacing: 0.5em;
+  font-family: var(--font-family-title);
+}
+
+.backButton {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+}
+
+.main {
+  align-self: flex-start;
+}

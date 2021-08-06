@@ -1,0 +1,27 @@
+.input {
+  border: thin solid var(--primary-color);
+  border-width: 0.1em;
+  padding: 1em 5em;
+  border-radius: 2em;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 0.8em;
+  width: 100%;
+  letter-spacing: 0.2em;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  align-items: center;
+}
+
+.container__icon {
+  position: absolute;
+  font-size: x-large;
+  left: 1em;
+}

@@ -1,0 +1,13 @@
+.navBar {
+  background-color: var(--navbar-background-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.3em 0 0;
+  font-size: 1.5em;
+}
+
+.navBarItem__active {
+  border-bottom: black 2px solid;
+  padding-bottom: 0.1em;
+}

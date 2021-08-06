@@ -1,0 +1,8 @@
+.writeMessageButton {
+  background-color: var(--secondary-color);
+  color: var(--text-color-lite);
+  border-radius: 2em;
+  border: none;
+  padding: 0.5em 1em;
+  font-size: 1.5em;
+}

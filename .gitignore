@@ -1,0 +1,8 @@
+.DS_Store
+dist
+dist-ssr
+*.local 
+*.local
+.eslintcache 
+node_modules
+.env

@@ -1,0 +1,11 @@
+.userImage {
+  width: 10em;
+  height: 10em;
+  border-radius: 100%;
+  border: 0.3em solid var(--userImage-border-color);
+  object-fit: cover;
+}
+
+.currentUser {
+  border-color: var(--primary-color);
+}

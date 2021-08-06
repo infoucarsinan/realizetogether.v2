@@ -1,0 +1,33 @@
+.container {
+  border: none;
+  border-radius: 0.8em;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 1fr;
+  column-gap: 1em;
+  font-size: 1em;
+  align-self: flex-start;
+  align-items: center;
+  row-gap: 0.2em;
+}
+
+.userImage {
+  width: 4em;
+  height: 4em;
+  object-fit: cover;
+  border: 0.2em solid var(--userImage-border-color);
+  grid-row: 1/3;
+}
+
+.userName {
+  font-size: 1.2em;
+  font-weight: 500;
+  align-self: flex-end;
+}
+
+.userDescription {
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--text-color-middle-dark);
+  align-self: flex-start;
+}

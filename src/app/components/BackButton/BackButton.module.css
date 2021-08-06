@@ -1,0 +1,7 @@
+.backButton {
+  color: var(--hint-color);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  width: 2em;
+}

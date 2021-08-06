@@ -1,0 +1,17 @@
+.container * {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: var(--tertiary-color);
+  border: none;
+  border-radius: 0 0.8em 0.8em 0;
+  padding: 1em;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 1fr;
+  column-gap: 1em;
+  font-size: 1em;
+  align-items: center;
+}

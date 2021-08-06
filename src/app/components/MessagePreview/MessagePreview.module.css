@@ -1,0 +1,24 @@
+.container * {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  border: none;
+  border-radius: 0.8em;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 1fr;
+  column-gap: 1em;
+  font-size: 1em;
+  row-gap: 0.5em;
+  align-self: flex-start;
+}
+
+.userImage {
+  width: 3em;
+  height: 3em;
+  object-fit: cover;
+  border: 0.2em solid var(--userImage-border-color);
+  grid-row: 1/3;
+}

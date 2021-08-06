@@ -1,0 +1,20 @@
+.container {
+  background-color: var(--tertiary-color);
+  border: none;
+  border-radius: 0.8em;
+  padding: 1em;
+  font-size: 1em;
+  position: relative;
+  display: grid;
+  row-gap: 1em;
+}
+
+.editButton {
+  position: absolute;
+  right: 1em;
+  top: 1em;
+}
+
+.category span {
+  text-decoration: underline;
+}

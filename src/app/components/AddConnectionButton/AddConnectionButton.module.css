@@ -1,0 +1,8 @@
+.addConnectionIcon {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 2em;
+  color: var(--text-color-lite);
+  font-size: 1.5em;
+}

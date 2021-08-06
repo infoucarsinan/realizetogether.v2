@@ -1,0 +1,27 @@
+.searchField {
+  border: none;
+  padding: 0.5em 4em;
+  border-radius: 0.8em;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 1em;
+  box-shadow: 0 0.03em 0.1em;
+  letter-spacing: 0.2em;
+}
+
+.searchField:focus {
+  outline: none;
+}
+
+.container {
+  position: relative;
+  display: grid;
+  align-items: center;
+}
+
+.container__icon {
+  position: absolute;
+  font-size: large;
+  left: 2em;
+  color: var(--hint-color);
+}
